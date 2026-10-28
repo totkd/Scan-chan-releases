@@ -6,9 +6,11 @@ Android向けのバーコード入力キーボードです。日本語・英語�
 
 [最新版APKをダウンロード](https://github.com/totkd/Scan-chan-releases/releases/latest/download/Scan-chan.apk)
 
-[0.8.5のAPKをダウンロード](https://github.com/totkd/Scan-chan-releases/releases/download/v0.8.5/Scan-chan.apk) · [変更内容・過去のバージョン](https://github.com/totkd/Scan-chan-releases/releases)
+[0.8.6のAPKをダウンロード](https://github.com/totkd/Scan-chan-releases/releases/download/v0.8.6/Scan-chan.apk) · [変更内容・過去のバージョン](https://github.com/totkd/Scan-chan-releases/releases)
 
 Android 10以上に対応します。端末へ入れるファイルは **Scan-chan.apk** です。
+
+0.8.6では、一部の端末でカメラ映像が出てもバーコードを読み取れなかった問題を改善しました。
 
 ## 初回設定
 
@@ -47,10 +49,12 @@ Scan-chanの **「使い方を見る → アプリの更新 → 更新ページ�
 
 ## 確認範囲
 
-0.8.5は単体Debug146件・Release122件が全成功、両Lintエラー0。SCG33 / Android16 / Ytrack2.1.0で、実機確認用の10番号を持出登録し、途中の「登録済み」1件も自動で閉じて継続しました。Backでの停止・非表示、番号欄を押したときのキーボードだけの復帰を、本人が確認しました。実機受入済み候補と正式版の本体ソースは一致しています。今回、配完の実登録を再試験したものではありません。
+0.8.6は単体Debug 146件・Release 122件が全成功、両Lintエラー0。Android 10の仮想端末で、画像の4方向と隣接する10本のバーコードの選択を確認しました。
 
-全設定が初期状態の別端末、Android 13以降の制限付き設定、会社管理ポリシー、実伝票の大量・長時間運用は、現場試用で引き続き確認します。
+A101KC / Android 13では、配布署名の修正候補で練習画面の単発読み取りと貨物問い合わせの連続読み取りを確認し、利用者からスムーズに読めたと報告を受けました。正式0.8.6の読み取り処理とモデルは、この候補と一致しています。正式版の実端末への再導入、他機種のカメラ、今回の持出・配完の実登録は未確認です。
+
+従来の0.8.5候補では、SCG33 / Android 16 / Ytrack 2.1.0で指定10番号の持出と登録済み後の継続、Backでの停止・非表示を確認しています。全設定が初期状態の別端末、会社管理ポリシー、実伝票の大量・長時間運用は、現場試用で引き続き確認します。
 
 ## ファイルの確認
 
-各Releaseの **Scan-chan.apk** と **SHA256SUMS** で確認できます。0.8.5には導入手順 **INSTALL.md** と **INSTALL_ADMIN.md**、担当者向けの配布セット **Scan-chan-0.8.5.zip** も添付します。APKの固定ファイル名は今後も同じです。
+各Releaseの **Scan-chan.apk** と **SHA256SUMS** で確認できます。0.8.6には導入手順 **INSTALL.md** と **INSTALL_ADMIN.md**、担当者向けの配布セット **Scan-chan-0.8.6.zip** も添付します。APKの固定ファイル名は今後も同じです。
