@@ -1,9 +1,7 @@
 # Scan-chan はじめての使い方
 
 > [!IMPORTANT]
-> **この手順書はScan-chan 0.8.9用です。**
->
-> 問い合わせ・持出・配完・持ち帰り・その他業務の準備は、1つの設定で行います。キーボードの自動切替は、使いたい方だけ追加します。
+> **[Scan-chan 0.8.9をダウンロード](https://github.com/totkd/Scan-chan-releases/releases/download/v0.8.9/Scan-chan.apk)**
 
 ## まずは動画で見る
 
